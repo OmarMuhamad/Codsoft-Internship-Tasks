@@ -1,5 +1,5 @@
 // Omar Mohammad 
-// Simple Calculator - Task II at CodSoft Intership
+// Simple Calculator - Task II at CodSoft Internship
 #include <iostream>
 using namespace std;
 
