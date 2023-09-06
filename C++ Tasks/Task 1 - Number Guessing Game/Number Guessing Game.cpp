@@ -1,5 +1,5 @@
 // Omar Mohammad 
-// Number Guessing Game - Task I at CodSoft Intership
+// Number Guessing Game - Task I at CodSoft Internship
 
 #include <cstdlib>
 #include <iostream>
