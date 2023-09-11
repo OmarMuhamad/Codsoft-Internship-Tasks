@@ -4,7 +4,7 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
     letter-spacing: 5px;
     font-size: 1.8rem;
-    background: url("./background.jpg") no-repeat center fixed;
+    background: url("./background.jpg") center ;
     background-size: cover;
 }
 
@@ -14,64 +14,65 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: auto;
 }
 
 .calculator{
     background: rgb(20, 144, 153)    ;
-    border-radius: 20px;
-    padding: 20px;
+    border-radius: 40px;
+    padding: 23px;
 }
 
 .calculator button{
     border: 0;
-    outline: 0;
-    width: 55px;
-    height: 50px;
-    border-radius: 12px;
-    box-shadow: -1px -1px 5px rgb(2, 6, 7), 1px 1px  5px rgb(0, 2, 2);
-    font-size: 20px;
-    color: rgb(255, 255, 255);
-    margin: 5px;
-    background: transparent;
-}
-.calculator button {
-    width: 50px;
-    height: 50px;
-    margin: 5px;
-    font-size: 20px;
-    border-radius: 20px;
+        box-shadow: -1px -1px 5px rgb(2, 6, 7), 1px 1px 5px rgb(0, 2, 2);
+        background: transparent;
+        width: 50px;
+        height: 50px;
+        margin: 5px;
+        font-size: 20px;
+        font-weight: bold;
+        color: black;
+        border-radius: 20px;
+        transition: .3s ;
 }
 
-.calculator button:hover {
-background-color: #23b3cc;
+
+.calculator button:hover{
+    transform: scale(1.1);
 }
 
-.calculator button:active {
-background-color: #23b3cc;
+.calculator button:hover:not(button.buttonEquals) {
+    background-color: #23b3cc;
 }
+
+
 /* #ce, #c, #del, #division, #one, #two, #three, #four, #five, #six, #seven, #eight, #nine{
     width: 100px;
 } */
-#zero{
-    width: 124px;
-}
+
+
 #dis{
-    height: 60px;
-    border-radius: 30px;
+    height: 80px;
+    border-radius: 32px;
     width: 270px;
     background: rgb(197, 184, 184);
-    display: flex;
-    justify-content: flex-end;
     margin: 30px 0;
-    text-align: right;
-    flex: 1;
     font-size: 40px;
+    font-weight: 500;
+    text-align: right;
 }
 
 
+/* #zeroButton{
+} */
 
-
-#zeroButton{
+button.buttonEquals{
+    background-color: #d96b10;
     width: 123px;
 }
+
+/* .buttonClear , .buttonDel{
+    color: ;
+} */
+
+

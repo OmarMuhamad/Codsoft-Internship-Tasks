@@ -4,7 +4,7 @@
 let myELement = document.querySelectorAll(".button");
 let screen = document.getElementById("dis")
 let operation = document.querySelectorAll(".operation");
-let arr = ['÷', '×', '+', '−'];
+let arr = ['÷', '×', '+', '−', '%'];
 
 // iterate over each button to do an event when button is hit
 myELement.forEach(function(button) {
